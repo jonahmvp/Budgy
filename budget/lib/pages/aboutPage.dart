@@ -855,7 +855,7 @@ class AboutLinks extends StatelessWidget {
             _buildTappable(
               context: context,
               isExternalLink: true,
-              onTap: () => openUrl("https://github.com/jameskokoska/Cashew"),
+              onTap: () => openUrl("https://github.com/jonahmvp/Budgy"),
               icon: MoreIcons.github,
               text: "app-is-open-source".tr(namedArgs: {"app": globalAppName}),
             ),
@@ -993,7 +993,7 @@ class AboutDeepLinking extends StatelessWidget {
       title: "deep-linking".tr(),
       showLink: false,
       link:
-          "https://github.com/jameskokoska/Cashew?tab=readme-ov-file#app-links",
+          "https://github.com/jonahmvp/Budgy?tab=readme-ov-file#app-links",
       list: [
         "deep-linking-description".tr(),
       ],
